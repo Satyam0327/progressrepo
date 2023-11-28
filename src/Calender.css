@@ -1,0 +1,58 @@
+.css-4pax7l-MuiPickersLayout-root{
+    width: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(40px);
+}
+.calendar-container {
+    background: linear-gradient(to right, rgb(12, 1, 1), #2d2424);
+    color: aliceblue;
+    border-radius: 40px;
+  }
+  
+  .MuiPickersToolbar-root.MuiDatePickerToolbar-root .MuiPickersToolbar-penIconButton {
+    display: none !important;
+  }
+  
+  .MuiPickersToolbar-root.MuiDatePickerToolbar-root {
+    padding: 0 !important;
+  }
+  
+  .MuiPickersToolbar-content {
+    justify-content: center !important;
+    background: orange;
+
+  }
+  
+
+  .MuiPickersDay-root.Mui-selected {
+    background-color: orange !important;
+  }
+  
+  .MuiPickersDay-root.Mui-selected.MuiPickersDay-day {
+    color: black !important;
+  }
+  
+  /* Non-selected day styles */
+  .MuiPickersDay-root:not(.Mui-selected) {
+    border-color: transparent !important;
+    color: orange;
+  }
+  
+  .css-144dnr3-MuiBadge-badge {
+    color: green;
+  }
+  
+  /* Additional styles */
+  .header-text {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: orange;
+  }
+  
+  /* Background color for the wrapper */
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    background-color: transparent;
+  }
+  .css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel{
+    color: white !important;
+  }
